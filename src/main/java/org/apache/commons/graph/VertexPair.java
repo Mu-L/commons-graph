@@ -45,8 +45,8 @@ public final class VertexPair<V>
     /**
      * Initializes a new vertex pair.
      *
-     * @param head the head Vertex
-     * @param tail the tail Vertex
+     * @param head The head Vertex
+     * @param tail The tail Vertex
      */
     public VertexPair( V head, V tail )
     {

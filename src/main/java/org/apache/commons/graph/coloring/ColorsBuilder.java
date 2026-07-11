@@ -34,7 +34,7 @@ public interface ColorsBuilder<V, E>
      * Specifies the set of colors for coloring the graph.
      *
      * @param <C> The Color type.
-     * @param colors the set of colors for coloring the graph.
+     * @param colors The set of colors for coloring the graph.
      * @return The coloring algorithm selector.
      */
     <C> ColoringAlgorithmsSelector<V, E, C> withColors( Set<C> colors );

@@ -32,7 +32,7 @@ public interface NamedExportSelector<V, E>
     /**
      * Use the given name when exporting the {@link org.apache.commons.graph.Graph} to a resource.
      *
-     * @param name the name to identify the {@link org.apache.commons.graph.Graph}
+     * @param name The name to identify the {@link org.apache.commons.graph.Graph}
      * @return The graph export format selector
      */
     ExportSelector<V, E> withName( String name );

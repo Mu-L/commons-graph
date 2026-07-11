@@ -39,7 +39,7 @@ public final class DefaultSccAlgorithmSelector<V, E>
     /**
      * Create a default {@link SccAlgorithmSelector} for the given {@link org.apache.commons.graph.Graph}.
      *
-     * @param graph the {@link org.apache.commons.graph.Graph}.
+     * @param graph The {@link org.apache.commons.graph.Graph}.
      */
     public DefaultSccAlgorithmSelector( final DirectedGraph<V, E> graph )
     {

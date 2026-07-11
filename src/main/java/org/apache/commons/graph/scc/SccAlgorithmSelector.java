@@ -51,7 +51,7 @@ public interface SccAlgorithmSelector<V, E>
      * Applies the classical Kosaraju's algorithm to find the strongly connected components of
      * a vertex <code>source</code>.
      *
-     * @param source the source vertex to start the search from
+     * @param source The source vertex to start the search from
      * @return The input graph strongly connected component.
      */
     Set<V> applyingKosarajuSharir( V source );

@@ -39,7 +39,7 @@ public final class DefaultLinkedConnectionBuilder<V, E, G extends MutableGraph<V
     /**
      * Creates a new {@link DefaultLinkedConnectionBuilder} for the graph.
      *
-     * @param graph the graph
+     * @param graph The graph
      */
     public DefaultLinkedConnectionBuilder( G graph )
     {

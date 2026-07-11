@@ -37,7 +37,7 @@ public abstract class AbstractGraphConnection<V, E>
      * Adds a new edge to graph connector.
      *
      * @param <A> The Graph edges type
-     * @param arc the edge to add.
+     * @param arc The edge to add.
      * @return The {@link HeadVertexConnector}
      */
     protected final <A extends E> HeadVertexConnector<V, E> addEdge( A arc )
@@ -49,7 +49,7 @@ public abstract class AbstractGraphConnection<V, E>
      * Adds a new vertex to graph connector.
      *
      * @param <N> The Graph vertex type
-     * @param node the vertex to add
+     * @param node The vertex to add
      * @return The vertex added
      */
     protected final <N extends V> N addVertex( N node )

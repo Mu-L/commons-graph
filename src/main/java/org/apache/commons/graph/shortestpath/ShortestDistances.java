@@ -47,7 +47,7 @@ final class ShortestDistances<V, W>
     /**
      * Checks if the input {@code Vertex} was already visited.
      *
-     * @param vertex the input {@code Vertex}
+     * @param vertex The input {@code Vertex}
      * @return true if the input {@code Vertex} was already visited, false otherwise.
      */
     public boolean alreadyVisited( V vertex )
@@ -81,7 +81,7 @@ final class ShortestDistances<V, W>
      * <b>NOTE</b>: the method {@link alreadyVisited} should be used first to check if
      * the input vertex was already visited and a distance value is available for it.
      *
-     * @param vertex the vertex whose distance has to be retrieved
+     * @param vertex The vertex whose distance has to be retrieved
      * @return The distance related to input vertex, or null if it wasn't previously visited.
      */
     public W getWeight( V vertex )
@@ -92,8 +92,8 @@ final class ShortestDistances<V, W>
     /**
      * Update the input vertex distance.
      *
-     * @param vertex the vertex for which the distance has to be updated
-     * @param distance the new input vertex distance
+     * @param vertex The vertex for which the distance has to be updated
+     * @param distance The new input vertex distance
      */
     public void setWeight( V vertex, W distance )
     {

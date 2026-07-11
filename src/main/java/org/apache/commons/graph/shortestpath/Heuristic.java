@@ -32,8 +32,8 @@ public interface Heuristic<V, W>
     /**
      * Applies the <i>h(x)</i> "heuristic estimate" of the distance from the start to the goal.
      *
-     * @param current the current visited Vertex in the Graph.
-     * @param goal the goal of the Graph visit.
+     * @param current The current visited Vertex in the Graph.
+     * @param goal The goal of the Graph visit.
      * @return The "heuristic estimate" of the distance from the start to the goal.
      */
     W applyHeuristic( V current, V goal );

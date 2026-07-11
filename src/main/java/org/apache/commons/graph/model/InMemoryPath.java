@@ -65,8 +65,8 @@ public class InMemoryPath<V, E>
     /**
      * Creates a new instance of {@link InMemoryPath} from {@code start} vertex to {@code taget} vertex
      *
-     * @param start the start vertex.
-     * @param target the target vertex.
+     * @param start The start vertex.
+     * @param target The target vertex.
      */
     public InMemoryPath( V start, V target )
     {
@@ -86,9 +86,9 @@ public class InMemoryPath<V, E>
     /**
      * Adds the edge in head.
      * 
-     * @param head the head vertex
-     * @param edge the edge
-     * @param tail the tail vertex
+     * @param head The head vertex
+     * @param edge The edge
+     * @param tail The tail vertex
      */
     public void addConnectionInHead( V head, E edge, V tail )
     {
@@ -106,9 +106,9 @@ public class InMemoryPath<V, E>
     /**
      * Adds the edge in tail.
      * 
-     * @param head the head vertex
-     * @param edge the edge
-     * @param tail the tail vertex
+     * @param head The head vertex
+     * @param edge The edge
+     * @param tail The tail vertex
      */
     public void addConnectionInTail( V head, E edge, V tail )
     {

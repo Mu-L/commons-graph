@@ -46,7 +46,7 @@ final class DisjointSetNode<E>
     /**
      * Creates a new {@link DisjointSet} node with the given value.
      *
-     * @param element the node value has to be stored.
+     * @param element The node value has to be stored.
      */
     public DisjointSetNode( E element )
     {
@@ -102,7 +102,7 @@ final class DisjointSetNode<E>
     /**
      * Sets the reference to a new parent node.
      *
-     * @param parent the reference to a new parent node.
+     * @param parent The reference to a new parent node.
      */
     public void setParent( DisjointSetNode<E> parent )
     {
@@ -112,7 +112,7 @@ final class DisjointSetNode<E>
     /**
      * Sets a new different rank.
      *
-     * @param rank the new rank to this node.
+     * @param rank The new rank to this node.
      */
     public void setRank( int rank )
     {

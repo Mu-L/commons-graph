@@ -34,8 +34,8 @@ public interface Monoid<E>
      * Returns the result of the associative binary operation defined by this
      * {@link Semigroup} between two elements of appropriate type.
      *
-     * @param e1 the first element
-     * @param e2 the second element
+     * @param e1 The first element
+     * @param e2 The second element
      * @return The result of the associative binary operation
      */
     E append( E e1, E e2 );
@@ -50,7 +50,7 @@ public interface Monoid<E>
     /**
      * Returns the inverse of the input element.
      *
-     * @param element the input element
+     * @param element The input element
      * @return The inverse of the input element
      */
     E inverse( E element );

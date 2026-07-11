@@ -98,7 +98,7 @@ public final class FibonacciHeap<E>
     /**
      * Creates a {@link FibonacciHeap} that orders its elements according to the specified comparator.
      *
-     * @param comparator the comparator that will be used to order this queue.
+     * @param comparator The comparator that will be used to order this queue.
      *                   If null, the natural ordering of the elements will be used.
      */
     public FibonacciHeap( /* @Nullable */Comparator<? super E> comparator )
@@ -163,7 +163,7 @@ public final class FibonacciHeap<E>
      * 5             else CUT(H,y,z)
      * 6                  CASCADING-CUT(H,z)</pre>
      *
-     * @param y the target node to apply CASCADING-CUT
+     * @param y The target node to apply CASCADING-CUT
      */
     private void cascadingCut( FibonacciHeapNode<E> y )
     {
@@ -206,8 +206,8 @@ public final class FibonacciHeap<E>
      * Compare the given objects according to the specified comparator if not null,
      * according to their natural ordering otherwise.
      *
-     * @param o1 the first {@link FibonacciHeap} node to be compared
-     * @param o2 the second {@link FibonacciHeap} node to be compared
+     * @param o1 The first {@link FibonacciHeap} node to be compared
+     * @param o2 The second {@link FibonacciHeap} node to be compared
      * @return A negative integer, zero, or a positive integer as the first argument is
      *         less than, equal to, or greater than the second
      */
@@ -390,8 +390,8 @@ public final class FibonacciHeap<E>
      * 3  p[x] &larr; NIL
      * 4  mark[x] &larr; FALSE</pre>
      *
-     * @param x the node has to be removed from {@code y} children
-     * @param y the node has to be updated
+     * @param x The node has to be removed from {@code y} children
+     * @param y The node has to be updated
      */
     private void cut( FibonacciHeapNode<E> x, FibonacciHeapNode<E> y )
     {
@@ -444,8 +444,8 @@ public final class FibonacciHeap<E>
      * 2  make y a child of x, incrementing degree[x]
      * 3  mark[y]  FALSE</pre>
      *
-     * @param y the node has to be removed from the root list
-     * @param x the node has to become fater of {@code y}
+     * @param y The node has to be removed from the root list
+     * @param x The node has to become fater of {@code y}
      */
     private void link( FibonacciHeapNode<E> y, FibonacciHeapNode<E> x )
     {
@@ -480,7 +480,7 @@ public final class FibonacciHeap<E>
     /**
      * Moves the target node in the {@code H} root nodes.
      *
-     * @param node the node has to be moved in the {@code H} root nodes
+     * @param node The node has to be moved in the {@code H} root nodes
      * @see #add(Object)
      * @see #consolidate()
      * @see #cut(FibonacciHeapNode, FibonacciHeapNode)

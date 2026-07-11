@@ -37,7 +37,7 @@ public final class DefaultRankingSelector<P>
     /**
      * Creates a new instance of {@link DefaultRankingSelector} for gived graph.
      *
-     * @param tournamentGraph the graph
+     * @param tournamentGraph The graph
      */
     public DefaultRankingSelector( DirectedGraph<P, GameResult> tournamentGraph )
     {

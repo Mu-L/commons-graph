@@ -38,7 +38,7 @@ public final class DisjointSet<E>
     /**
      * Performs the @code{ find} operation by applying the <i>path compression</i>.
      *
-     * @param node the input DisjointSet node for the @code{ find} operation
+     * @param node The input DisjointSet node for the @code{ find} operation
      * @return The root node of the path
      */
     private DisjointSetNode<E> find( DisjointSetNode<E> node )
@@ -53,7 +53,7 @@ public final class DisjointSet<E>
     /**
      * Performs the {@code find} operation applying the <i>path compression</i>.
      *
-     * @param e the element has to be find in this {@code DisjointSet} instance
+     * @param e The element has to be find in this {@code DisjointSet} instance
      * @return The value found 
      */
     public E find( E e )
@@ -74,7 +74,7 @@ public final class DisjointSet<E>
      * Retrieves the {@code DisjointSetNode} from the {@link #disjointSets},
      * if already previously set, creates a new one and push it in {@link #disjointSets} otherwise.
      *
-     * @param e the element which related subset has to be returned
+     * @param e The element which related subset has to be returned
      * @return The input element {@code DisjointSetNode}
      */
     private DisjointSetNode<E> getNode( E e )
@@ -93,8 +93,8 @@ public final class DisjointSet<E>
     /**
      * Join two subsets into a single subset, performing the merge by applying the <i>union by rank</i>.
      *
-     * @param e1 the first element which related subset has to be merged
-     * @param e2 the second element which related subset has to be merged
+     * @param e1 The first element which related subset has to be merged
+     * @param e2 The second element which related subset has to be merged
      */
     public void union( E e1, E e2 )
     {

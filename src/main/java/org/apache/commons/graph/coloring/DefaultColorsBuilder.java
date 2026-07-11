@@ -40,7 +40,7 @@ public final class DefaultColorsBuilder<V, E>
     /**
      * Creates a new instance of {@link DefaultColorsBuilder} for the input graph.
      *
-     * @param graph the graph
+     * @param graph The graph
      */
     public DefaultColorsBuilder( UndirectedGraph<V, E> graph )
     {

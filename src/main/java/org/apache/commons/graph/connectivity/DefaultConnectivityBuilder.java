@@ -39,7 +39,7 @@ public class DefaultConnectivityBuilder<V, E>
     /**
      * Creates a nw instance of {@link DefaultConnectivityBuilder}
      *
-     * @param graph the graph
+     * @param graph The graph
      */
     public DefaultConnectivityBuilder( Graph<V, E> graph )
     {

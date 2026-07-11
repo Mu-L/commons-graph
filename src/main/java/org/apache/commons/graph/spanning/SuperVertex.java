@@ -54,9 +54,9 @@ final class SuperVertex<V, W, WE>
      * Create a new {@link SuperVertex} instance with <code>source</code>
      * as start vertex.
      *
-     * @param source the start vertex
-     * @param graph the underlying graph
-     * @param weightComparator the comparator used to sort the weighted edges
+     * @param source The start vertex
+     * @param graph The underlying graph
+     * @param weightComparator The comparator used to sort the weighted edges
      */
     public SuperVertex( final V source, final Graph<V, WE> graph, final WeightedEdgesComparator<W, WE> weightComparator )
     {
@@ -108,7 +108,7 @@ final class SuperVertex<V, W, WE>
      * The edges from the other {@link SuperVertex} are only added in case
      * they are not to vertices already contained in this {@link SuperVertex}.
      *
-     * @param other the {@link SuperVertex} to be merged into this
+     * @param other The {@link SuperVertex} to be merged into this
      */
     public void merge( final SuperVertex<V, W, WE> other )
     {

@@ -32,7 +32,7 @@ public interface HeadVertexConnector<V, E>
      * Specifies the head vertex for the edge
      *
      * @param <H> The Graph vertex type
-     * @param head the head vertex
+     * @param head The head vertex
      * @return {@link TailVertexConnector} builded from the head
      */
     <H extends V> TailVertexConnector<V, E> from( H head );

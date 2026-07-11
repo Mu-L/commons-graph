@@ -34,7 +34,7 @@ public final class GraphExportException
     /**
      * Constructs a new graph export exception with the specified detail message.
      * 
-     * @param cause the cause
+     * @param cause The cause
      * @param messagePattern  A <a href="../util/Formatter.html#syntax">format string</a>
      * @param messageArguments Arguments referenced by the format specifiers in the format string
      * @see java.lang.String#format(String, Object...)

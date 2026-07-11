@@ -38,7 +38,7 @@ public interface ConnectivityBuilder<V, E>
     /**
      * Specifies the set of vertices included into a connected component.
      *
-     * @param vertices the set of vertices included into a connected component.
+     * @param vertices The set of vertices included into a connected component.
      * @return The connectivity algorithm selector.
      */
     ConnectivityAlgorithmsSelector<V, E> includingVertices( V... vertices );

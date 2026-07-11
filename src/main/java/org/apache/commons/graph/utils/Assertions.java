@@ -31,14 +31,14 @@ public final class Assertions
      * Ensures the truth of an expression involving one or more parameters to the
      * calling method.
      *
-     * @param expression a boolean expression
-     * @param errorMessageTemplate a template for the exception message should the
+     * @param expression A boolean expression
+     * @param errorMessageTemplate A template for the exception message should the
      *     check fail. The message is formed by replacing each {@code %s}
      *     placeholder in the template with an argument. These are matched by
      *     position - the first {@code %s} gets {@code errorMessageArgs[0]}, etc.
      *     Unmatched arguments will be appended to the formatted message in square
      *     braces. Unmatched placeholders will be left as-is.
-     * @param errorMessageArgs the arguments to be substituted into the message
+     * @param errorMessageArgs The arguments to be substituted into the message
      *     template. Arguments are converted to strings using
      *     {@link String#valueOf(Object)}.
      * @throws IllegalArgumentException if {@code expression} is false
@@ -58,15 +58,15 @@ public final class Assertions
      * Ensures that an object reference passed as a parameter to the calling
      * method is not null.
      *
-     * @param reference an object reference
+     * @param reference An object reference
      * @param <T> The reference type
-     * @param errorMessageTemplate a template for the exception message should the
+     * @param errorMessageTemplate A template for the exception message should the
      *     check fail. The message is formed by replacing each {@code %s}
      *     placeholder in the template with an argument. These are matched by
      *     position - the first {@code %s} gets {@code errorMessageArgs[0]}, etc.
      *     Unmatched arguments will be appended to the formatted message in square
      *     braces. Unmatched placeholders will be left as-is.
-     * @param errorMessageArgs the arguments to be substituted into the message
+     * @param errorMessageArgs The arguments to be substituted into the message
      *     template. Arguments are converted to strings using
      *     {@link String#valueOf(Object)}.
      * @return The non-null reference that was validated
@@ -86,14 +86,14 @@ public final class Assertions
      * Ensures the truth of an expression involving the state of the calling
      * instance, but not involving any parameters to the calling method.
      *
-     * @param expression a boolean expression
-     * @param errorMessageTemplate a template for the exception message should the
+     * @param expression A boolean expression
+     * @param errorMessageTemplate A template for the exception message should the
      *     check fail. The message is formed by replacing each {@code %s}
      *     placeholder in the template with an argument. These are matched by
      *     position - the first {@code %s} gets {@code errorMessageArgs[0]}, etc.
      *     Unmatched arguments will be appended to the formatted message in square
      *     braces. Unmatched placeholders will be left as-is.
-     * @param errorMessageArgs the arguments to be substituted into the message template.
+     * @param errorMessageArgs The arguments to be substituted into the message template.
      * @throws IllegalStateException if {@code expression} is false
      * @throws NullPointerException if the check fails and either {@code
      *     errorMessageTemplate} or {@code errorMessageArgs} is null (don't let

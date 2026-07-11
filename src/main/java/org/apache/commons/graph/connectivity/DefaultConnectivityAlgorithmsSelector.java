@@ -46,7 +46,7 @@ final class DefaultConnectivityAlgorithmsSelector<V, E>
     /**
      * Create a new instance of {@link DefaultConnectivityAlgorithmsSelector} calculated for a set of included vertices
      * 
-     * @param graph the graph
+     * @param graph The graph
      * @param includedVertices included vertices
      */
     public DefaultConnectivityAlgorithmsSelector( Graph<V, E> graph, Iterable<V> includedVertices )

@@ -39,7 +39,7 @@ public interface Graph<V, E>
      * <b>NOTE</b>: implementors have to take in consideration throwing a {@link GraphException}
      * if an error occurs while performing that operation.
      *
-     * @param e the edge to be checked
+     * @param e The edge to be checked
      * @return Returns true if the edge is contained into the graph, false otherwise
      */
     boolean containsEdge( E e );
@@ -50,7 +50,7 @@ public interface Graph<V, E>
      * <b>NOTE</b>: implementors have to take in consideration throwing a {@link GraphException}
      * if an error occurs while performing that operation.
      *
-     * @param v the vertex to be checked
+     * @param v The vertex to be checked
      * @return Returns true if the vertex is contained into the graph, false otherwise
      */
     boolean containsVertex( V v );
@@ -61,7 +61,7 @@ public interface Graph<V, E>
      * <b>NOTE</b>: implementors have to take in consideration throwing a {@link GraphException}
      * if an error occurs while performing that operation.
      *
-     * @param v the vertex which connected vertices have to be returned.
+     * @param v The vertex which connected vertices have to be returned.
      * @return all vertices which touch this vertex.
      */
     Iterable<V> getConnectedVertices( V v );
@@ -73,7 +73,7 @@ public interface Graph<V, E>
      * <b>NOTE</b>: implementors have to take in consideration throwing a {@link GraphException}
      * if an error occurs while performing that operation.
      *
-     * @param v the vertex which degree has to be returned.
+     * @param v The vertex which degree has to be returned.
      * @return The number of edges incident to the vertex.
      */
     int getDegree( V v );
@@ -84,8 +84,8 @@ public interface Graph<V, E>
      * <b>NOTE</b>: implementors have to take in consideration throwing a {@link GraphException}
      * if an error occurs while performing that operation.
      *
-     * @param source the source vertex
-     * @param target the target vertex
+     * @param source The source vertex
+     * @param target The target vertex
      * @return The edge with vertex source and target.
      */
     E getEdge( V source, V target );
@@ -136,7 +136,7 @@ public interface Graph<V, E>
      * <b>NOTE</b>: implementors have to take in consideration throwing a {@link GraphException}
      * if an error occurs while performing that operation.
      *
-     * @param e the input edge
+     * @param e The input edge
      * @return The set of vertex on this Edge.
      */
     VertexPair<V> getVertices( E e );

@@ -52,8 +52,8 @@ final class DefaultVisitAlgorithmsSelector<V, E, G extends Graph<V, E>>
     /**
      * Create a default {@link VisitAlgorithmsSelector} for the given {@link Graph} and start vertex.
      *
-     * @param graph the {@link Graph} to be used.
-     * @param source the start vertex.
+     * @param graph The {@link Graph} to be used.
+     * @param source The start vertex.
      */
     public DefaultVisitAlgorithmsSelector( final G graph, final V source )
     {
@@ -101,7 +101,7 @@ final class DefaultVisitAlgorithmsSelector<V, E, G extends Graph<V, E>>
      * <li>Stack (LIFO): depth-first</li>
      * </ul>
      *
-     * @param handler the handler intercepts visits
+     * @param handler The handler intercepts visits
      * @param enqueue defines the collection behavior used to traverse the graph: true is a Queue, false is a Stack
      * @return The result of {@link GraphVisitHandler#onCompleted()}
      */

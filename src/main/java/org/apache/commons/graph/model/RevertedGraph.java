@@ -47,7 +47,7 @@ public final class RevertedGraph<V, E>
     /**
      * Build a new DirectedGraph mirror.
      *
-     * @param directedGraph the DirectedGraph has to be adapted
+     * @param directedGraph The DirectedGraph has to be adapted
      */
     public RevertedGraph( DirectedGraph<V, E> directedGraph )
     {

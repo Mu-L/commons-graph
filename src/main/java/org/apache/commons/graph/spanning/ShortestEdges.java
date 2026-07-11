@@ -76,8 +76,8 @@ final class ShortestEdges<V, WE, W>
     /**
      * Add an edge in the predecessor list associated to the input vertex.
      *
-     * @param tail the predecessor vertex
-     * @param head the edge that succeeds to the input vertex
+     * @param tail The predecessor vertex
+     * @param head The edge that succeeds to the input vertex
      */
     public void addPredecessor( V tail, WE head )
     {
@@ -135,7 +135,7 @@ final class ShortestEdges<V, WE, W>
      * <b>NOTE</b>: the method {@link hasWeight} should be used first to check if
      * the input vertex has an assiged weight.
      *
-     * @param vertex the vertex for which the distance has to be retrieved
+     * @param vertex The vertex for which the distance has to be retrieved
      * @return The distance related to input vertex, or null if it does not exist
      */
     public W getWeight( V vertex )
@@ -158,7 +158,7 @@ final class ShortestEdges<V, WE, W>
     /**
      * Checks if there is a weight related to the input {@code Vertex}.
      *
-     * @param vertex the input {@code Vertex}
+     * @param vertex The input {@code Vertex}
      * @return true if there is a weight for the input {@code Vertex}, false otherwise
      */
     public boolean hasWeight( V vertex )

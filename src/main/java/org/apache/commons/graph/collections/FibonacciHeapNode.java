@@ -66,7 +66,7 @@ final class FibonacciHeapNode<E>
     /**
      * Build a new {@link FibonacciHeap} node with the given value.
      *
-     * @param element the node value has to be stored.
+     * @param element The node value has to be stored.
      */
     public FibonacciHeapNode( E element )
     {
@@ -180,7 +180,7 @@ final class FibonacciHeapNode<E>
     /**
      * Sets the reference to the first child node.
      *
-     * @param child the reference to the first child node.
+     * @param child The reference to the first child node.
      */
     public void setChild( FibonacciHeapNode<E> child )
     {
@@ -190,7 +190,7 @@ final class FibonacciHeapNode<E>
     /**
      * Sets the left node reference.
      *
-     * @param left the left node reference.
+     * @param left The left node reference.
      */
     public void setLeft( FibonacciHeapNode<E> left )
     {
@@ -200,7 +200,7 @@ final class FibonacciHeapNode<E>
     /**
      * Flags the current node as marked.
      *
-     * @param marked the current node mark status.
+     * @param marked The current node mark status.
      */
     public void setMarked( boolean marked )
     {
@@ -210,7 +210,7 @@ final class FibonacciHeapNode<E>
     /**
      * Sets the reference to the parent node.
      *
-     * @param parent the reference to the parent node
+     * @param parent The reference to the parent node
      */
     public void setParent( FibonacciHeapNode<E> parent )
     {
@@ -220,7 +220,7 @@ final class FibonacciHeapNode<E>
     /**
      * Sets the right node reference.
      *
-     * @param left the right node reference.
+     * @param left The right node reference.
      */
     public void setRight( FibonacciHeapNode<E> right )
     {

@@ -32,7 +32,7 @@ public interface GraphConnector<V, E>
      * Adds a new edge to graph.
      *
      * @param <A> The Graph edges type
-     * @param arc the edge to add.
+     * @param arc The edge to add.
      * @return The {@link HeadVertexConnector}
      */
     <A extends E> HeadVertexConnector<V, E> addEdge( A arc );
@@ -41,7 +41,7 @@ public interface GraphConnector<V, E>
      * Adds a new vertex to graph.
      *
      * @param <N> The Graph vertices type
-     * @param node the vertex to add
+     * @param node The vertex to add
      * @return The vertex added
      */
     <N extends V> N addVertex( N node );

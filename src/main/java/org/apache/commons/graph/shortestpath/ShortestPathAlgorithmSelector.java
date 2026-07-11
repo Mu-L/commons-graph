@@ -36,7 +36,7 @@ public interface ShortestPathAlgorithmSelector<V, WE, W>
      *  Calculates the shortest path using the A* algorithm.
      *
      * @param <WO> the type of weight operations
-     * @param weightOperations the class responsible for operations on weights
+     * @param weightOperations The class responsible for operations on weights
      * @return
      */
     <WO extends OrderedMonoid<W>> HeuristicBuilder<V, WE, W> applyingAStar( WO weightOperations );
@@ -45,7 +45,7 @@ public interface ShortestPathAlgorithmSelector<V, WE, W>
      *  Calculates the shortest path using bidirectional Dijkstra's algorithm.
      *
      * @param <WO> the type of weight operations
-     * @param weightOperations the class responsible for operations on weights
+     * @param weightOperations The class responsible for operations on weights
      * @return A path which describes the shortest path, if any, otherwise a {@link PathNotFoundException} will be thrown
      */
     <WO extends OrderedMonoid<W>> WeightedPath<V, WE, W> applyingBidirectionalDijkstra( WO weightOperations );
@@ -54,7 +54,7 @@ public interface ShortestPathAlgorithmSelector<V, WE, W>
      *  Calculates the shortest path using Dijkstra's algorithm.
      *
      * @param <WO> the type of weight operations
-     * @param weightOperations the class responsible for operations on weights
+     * @param weightOperations The class responsible for operations on weights
      * @return A path which describes the shortest path, if any, otherwise a {@link PathNotFoundException} will be thrown
      */
     <WO extends OrderedMonoid<W>> WeightedPath<V, WE, W> applyingDijkstra( WO weightOperations );

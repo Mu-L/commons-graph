@@ -148,7 +148,7 @@ final class DefaultColoringAlgorithmsSelector<V, E, C>
      * This is the recursive step.
      *
      * @param result The set that will be returned
-     * @param element the element
+     * @param element The element
      * @return true if there is a valid coloring for the graph, false otherwise.
      */
     private boolean backtraking( int currentVertexIndex, List<V> verticesList, ColoredVertices<V, C> coloredVertices )

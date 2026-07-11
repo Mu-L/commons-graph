@@ -50,7 +50,7 @@ final class KosarajuSharirAlgorithm<V, E>
     /**
      * Create a new {@link KosarajuSharirAlgorithm} instance for the given {@link org.apache.commons.graph.Graph}.
      *
-     * @param graph the {@link org.apache.commons.graph.Graph} on which to apply the algorithm
+     * @param graph The {@link org.apache.commons.graph.Graph} on which to apply the algorithm
      */
     public KosarajuSharirAlgorithm( final DirectedGraph<V, E> graph )
     {
@@ -60,8 +60,8 @@ final class KosarajuSharirAlgorithm<V, E>
     /**
      * Performs a depth-first search to create a recursive vertex list.
      *
-     * @param source the starting vertex
-     * @param visitedVertices a {@link Set} containing all visited vertices
+     * @param source The starting vertex
+     * @param visitedVertices A {@link Set} containing all visited vertices
      * @return The recursively expanded vertex list for Kosaraju's algorithm
      */
     private List<V> getExpandedVertexList( final V source, final Set<V> visitedVertices )
@@ -140,7 +140,7 @@ final class KosarajuSharirAlgorithm<V, E>
      * Applies the classical Kosaraju's algorithm to find the strongly connected components of
      * a vertex <code>source</code>.
      *
-     * @param source the source vertex to start the search from
+     * @param source The source vertex to start the search from
      * @return The input graph strongly connected component.
      */
     public Set<V> perform( final V source )
@@ -168,9 +168,9 @@ final class KosarajuSharirAlgorithm<V, E>
      * been visited yet, while in the second step we search for vertices that have already
      * been visited.</p>
      *
-     * @param g the graph to be search
-     * @param source the start vertex
-     * @param coll the recursive collection of visited vertices
+     * @param g The graph to be search
+     * @param source The start vertex
+     * @param coll The recursive collection of visited vertices
      * @param visited contains vertices that have been already visited
      * @param forward <code>true</code> for the first step of Kosaraju's algorithm,
      * <code>false</code> for the second step.

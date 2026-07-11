@@ -32,7 +32,7 @@ public interface TailVertexConnector<V, E>
      * Specifies the tail vertex for the edge
      *
      * @param <T> The Graph vertex type
-     * @param tail the tail vertex
+     * @param tail The tail vertex
      */
     <T extends V> void to( T tail );
 

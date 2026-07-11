@@ -54,8 +54,8 @@ public class GraphException
     /**
      * Constructs a new graph exception with the specified detail message and cause.
      *
-     * @param msg the detail message.
-     * @param cause the cause
+     * @param msg The detail message.
+     * @param cause The cause
      */
     public GraphException( String msg, Throwable cause )
     {
@@ -65,7 +65,7 @@ public class GraphException
     /**
      * Constructs a new graph exception with the specified cause.
      *
-     * @param cause the cause
+     * @param cause The cause
      */
     public GraphException( Throwable cause )
     {

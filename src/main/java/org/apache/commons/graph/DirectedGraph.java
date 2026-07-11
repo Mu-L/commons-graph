@@ -36,7 +36,7 @@ public interface DirectedGraph<V, E>
     /**
      * Returns the set of edges which are inbound to the vertex.
      *
-     * @param v the vertex which inbound vertexs have to be returned
+     * @param v The vertex which inbound vertexs have to be returned
      * @return The set of vertexs which are inbound to the vertex.
      */
     Iterable<V> getInbound( V v );
@@ -44,7 +44,7 @@ public interface DirectedGraph<V, E>
     /**
      * For a vertex, the number of head endpoints adjacent to a node is called the indegree.
      *
-     * @param v the vertex which indegree has to be returned.
+     * @param v The vertex which indegree has to be returned.
      * @return The number of head endpoints adjacent to a vertex.
      */
     int getInDegree( V v );
@@ -52,7 +52,7 @@ public interface DirectedGraph<V, E>
     /**
      * Returns the set of vertexs which lead away from the vertex.
      *
-     * @param v the vertex which outbound vertexs have to be returned
+     * @param v The vertex which outbound vertexs have to be returned
      * @return The set of vertexs which lead away from the vertex.
      */
     Iterable<V> getOutbound( V v );
@@ -60,7 +60,7 @@ public interface DirectedGraph<V, E>
     /**
      * For a vertex, the number of tail endpoints adjacent to a node is called the outdegree.
      *
-     * @param v the vertex which indegree has to be returned.
+     * @param v The vertex which indegree has to be returned.
      * @return The number of head endpoints adjacent to a vertex.
      */
     int getOutDegree( V v );

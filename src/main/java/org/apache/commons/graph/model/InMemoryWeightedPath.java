@@ -50,8 +50,8 @@ public final class InMemoryWeightedPath<V, WE, W>
     /**
      * Creates a new instance of {@link InMemoryWeightedPath}.
      * 
-     * @param start the start vertex
-     * @param target the target vertex
+     * @param start The start vertex
+     * @param target The target vertex
      * @param weightOperations 
      * @param weightedEdges
      */
@@ -133,7 +133,7 @@ public final class InMemoryWeightedPath<V, WE, W>
     /**
      * Increase the path weight with the weight of the input weighted edge.
      *
-     * @param edge the edge whose weight is used to increase the path weight
+     * @param edge The edge whose weight is used to increase the path weight
      */
     private void increaseWeight( WE edge )
     {

@@ -35,7 +35,7 @@ public interface MaxFlowAlgorithmSelector<V, WE, W>
      * Calculates the maximum flow using the Edmonds-Karp algorithm.
      *
      * @param <WO> the type of weight operations
-     * @param weightOperations the class responsible for operations on weights
+     * @param weightOperations The class responsible for operations on weights
      * @return The max flow calculate with Edmonds and Karp algorithm
      */
     <WO extends OrderedMonoid<W>> W applyingEdmondsKarp( WO weightOperations );
@@ -44,7 +44,7 @@ public interface MaxFlowAlgorithmSelector<V, WE, W>
      * Calculates the maximum flow using the Ford-Fulkerson method.
      *
      * @param <WO> the type of weight operations
-     * @param weightOperations the class responsible for operations on weights
+     * @param weightOperations The class responsible for operations on weights
      * @return The max flow calculate with Ford and Furkenson algorithm
      */
     <WO extends OrderedMonoid<W>> W applyingFordFulkerson( WO weightOperations );

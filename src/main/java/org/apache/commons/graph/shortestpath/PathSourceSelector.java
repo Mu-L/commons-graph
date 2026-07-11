@@ -34,7 +34,7 @@ public interface PathSourceSelector<V, WE, W>
      *  Calculates all vertices shortest paths using the FloydWarshall's algorithm.
      *
      * @param <WO> the type of weight operations
-     * @param weightOperations the weight operations needed for the algorithm
+     * @param weightOperations The weight operations needed for the algorithm
      * @return A data structure which contains all vertex pairs shortest path.
      */
     <WO extends OrderedMonoid<W>> AllVertexPairsShortestPath<V, WE, W> applyingFloydWarshall( WO weightOperations );

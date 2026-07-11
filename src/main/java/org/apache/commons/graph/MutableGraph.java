@@ -35,9 +35,9 @@ public interface MutableGraph<V, E>
      * <b>NOTE</b>: implementors have to take in consideration throwing a {@link GraphException}
      * if an error occurs while performing that operation.
      *
-     * @param head the head vertex
-     * @param e the edge has to be added in this {@code MutableGraph} instance.
-     * @param tail the tail vertex
+     * @param head The head vertex
+     * @param e The edge has to be added in this {@code MutableGraph} instance.
+     * @param tail The tail vertex
      */
     void addEdge( V head, E e, V tail );
 
@@ -47,7 +47,7 @@ public interface MutableGraph<V, E>
      * <b>NOTE</b>: implementors have to take in consideration throwing a {@link GraphException}
      * if an error occurs while performing that operation.
      *
-     * @param v the vertex has to be added in this {@code MutableGraph} instance.
+     * @param v The vertex has to be added in this {@code MutableGraph} instance.
      */
     void addVertex( V v );
 
@@ -57,7 +57,7 @@ public interface MutableGraph<V, E>
      * <b>NOTE</b>: implementors have to take in consideration throwing a {@link GraphException}
      * if an error occurs while performing that operation.
      *
-     * @param e the edge has to be removed from this {@code MutableGraph} instance.
+     * @param e The edge has to be removed from this {@code MutableGraph} instance.
      */
     void removeEdge( E e );
 
@@ -67,7 +67,7 @@ public interface MutableGraph<V, E>
      * <b>NOTE</b>: implementors have to take in consideration throwing a {@link GraphException}
      * if an error occurs while performing that operation.
      *
-     * @param v the vertex has to be removed from this {@code MutableGraph} instance.
+     * @param v The vertex has to be removed from this {@code MutableGraph} instance.
      */
     void removeVertex( V v );
 

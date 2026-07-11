@@ -28,8 +28,8 @@ public final class Objects
     /**
      * Verifies input objects are equal.
      *
-     * @param o1 the first argument to compare
-     * @param o2 the second argument to compare
+     * @param o1 The first argument to compare
+     * @param o2 The second argument to compare
      * @return true, if the input arguments are equal, false otherwise.
      */
     public static <O> boolean eq( O o1, O o2 )
@@ -40,9 +40,9 @@ public final class Objects
     /**
      * Computes a hashCode given the input objects.
      *
-     * @param initialNonZeroOddNumber a non-zero, odd number used as the initial value.
-     * @param multiplierNonZeroOddNumber a non-zero, odd number used as the multiplier.
-     * @param objs the objects to compute hash code.
+     * @param initialNonZeroOddNumber A non-zero, odd number used as the initial value.
+     * @param multiplierNonZeroOddNumber A non-zero, odd number used as the multiplier.
+     * @param objs The objects to compute hash code.
      * @return The computed hashCode.
      */
     public static int hash( int initialNonZeroOddNumber, int multiplierNonZeroOddNumber, Object...objs )

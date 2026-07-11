@@ -50,8 +50,8 @@ public final class ColoredVertices<V, C>
     /**
      * Store the input vertex color.
      *
-     * @param v the vertex for which storing the color.
-     * @param color the input vertex color.
+     * @param v The vertex for which storing the color.
+     * @param color The input vertex color.
      */
     void addColor( V v, C color )
     {
@@ -70,7 +70,7 @@ public final class ColoredVertices<V, C>
     /**
      * Tests if the 'vertex' is colored.
      * 
-     * @param vertex the vertex 
+     * @param vertex The vertex 
      * @return true if the colored vertex is contained into the map, false otherwise
      */
     public boolean containsColoredVertex( V vertex )
@@ -81,7 +81,7 @@ public final class ColoredVertices<V, C>
     /**
      * Returns the color associated to the input vertex.
      *
-     * @param v the vertex for which getting the color.
+     * @param v The vertex for which getting the color.
      * @return The color associated to the input vertex.
      */
     public C getColor( V v )
@@ -104,7 +104,7 @@ public final class ColoredVertices<V, C>
     /**
      * Remove the input vertex color.
      *
-     * @param v the vertex for which storing the color.
+     * @param v The vertex for which storing the color.
      */
     void removeColor( V v )
     {

@@ -57,8 +57,8 @@ public final class PredecessorsList<V, WE, W>
     /**
      * Add an edge in the predecessor list associated to the input vertex.
      *
-     * @param tail the predecessor vertex
-     * @param head the edge that succeeds to the input vertex
+     * @param tail The predecessor vertex
+     * @param head The edge that succeeds to the input vertex
      */
     public void addPredecessor( V tail, V head )
     {
@@ -68,8 +68,8 @@ public final class PredecessorsList<V, WE, W>
     /**
      * Build a {@link WeightedPath} instance related to source-target path.
      *
-     * @param source the path source vertex
-     * @param target the path target vertex
+     * @param source The path source vertex
+     * @param target The path target vertex
      * @return The weighted path related to source to target
      */
     public WeightedPath<V, WE, W> buildPath( V source, V target )
@@ -97,10 +97,10 @@ public final class PredecessorsList<V, WE, W>
     /**
      * Build a {@link WeightedPath} instance related to source-target path.
      *
-     * @param source the path source vertex
-     * @param touch the node where search frontiers meet, producing the shortest path
-     * @param target the path target vertex
-     * @param backwardsList the predecessor list in backwards search space along reversed edges
+     * @param source The path source vertex
+     * @param touch The node where search frontiers meet, producing the shortest path
+     * @param target The path target vertex
+     * @param backwardsList The predecessor list in backwards search space along reversed edges
      * @return The weighted path related to source to target
      */
     public WeightedPath<V, WE, W> buildPath( V source, V touch, V target, PredecessorsList<V, WE, W> backwardsList ) {

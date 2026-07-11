@@ -49,7 +49,7 @@ public interface SpanningTreeSourceSelector<V, W, WE>
      * </pre>
      *
      * @param <WO> the type of weight operations
-     * @param weightOperations the weight operations
+     * @param weightOperations The weight operations
      * @return The calculated spanning tree
      */
     <WO extends OrderedMonoid<W>> SpanningTree<V, WE, W> applyingReverseDeleteAlgorithm( WO weightOperations );
@@ -64,7 +64,7 @@ public interface SpanningTreeSourceSelector<V, W, WE>
     /**
      * Allows specify a source vertex to calculate the spanning tree.
      *
-     * @param source the source vertex to calculate the spanning tree.
+     * @param source The source vertex to calculate the spanning tree.
      * @return The linked spanning tree algorithm builder
      */
     <S extends V> SpanningTreeAlgorithmSelector<V, W, WE> fromSource( S source );

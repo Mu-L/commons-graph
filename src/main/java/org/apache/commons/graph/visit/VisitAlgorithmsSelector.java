@@ -41,7 +41,7 @@ public interface VisitAlgorithmsSelector<V, E, G extends Graph<V, E>>
     /**
      * Breadth-first search algorithm implementation.
      *
-     * @param handler the handler intercepts visit actions
+     * @param handler The handler intercepts visit actions
      */
     <O> O applyingBreadthFirstSearch( GraphVisitHandler<V, E, G, O> handler );
 
@@ -55,7 +55,7 @@ public interface VisitAlgorithmsSelector<V, E, G extends Graph<V, E>>
     /**
      * Depth-first search algorithm implementation.
      *
-     * @param handler the handler intercepts visit actions
+     * @param handler The handler intercepts visit actions
      */
     <O> O applyingDepthFirstSearch( GraphVisitHandler<V, E, G, O> handler );
 

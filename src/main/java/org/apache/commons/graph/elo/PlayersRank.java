@@ -30,7 +30,7 @@ public interface PlayersRank<P>
     /**
      * Returns the ranking for the player
      *
-     * @param player the player
+     * @param player The player
      * @return Returns the ranking for the player
      */
     Double getRanking( P player );
@@ -38,8 +38,8 @@ public interface PlayersRank<P>
     /**
      * Update the ranking for the player
      *
-     * @param player the player 
-     * @param ranking the ranking value
+     * @param player The player 
+     * @param ranking The ranking value
      */
     void updateRanking( P player, Double ranking );
 

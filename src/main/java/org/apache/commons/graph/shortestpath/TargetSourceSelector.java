@@ -36,7 +36,7 @@ public interface TargetSourceSelector<V, WE, W>
      *
      * @param <WO> the type of weight operations
      * @param weightOperations the weight operations needed for the algorithm
-     * @return a data structure which contains all vertex pairs shortest path.
+     * @return A data structure which contains all vertex pairs shortest path.
      */
     <WO extends OrderedMonoid<W>> AllVertexPairsShortestPath<V, WE, W> applyingBelmannFord( WO weightOperations );
 

@@ -208,7 +208,7 @@ public final class FibonacciHeap<E>
      *
      * @param o1 the first {@link FibonacciHeap} node to be compared
      * @param o2 the second {@link FibonacciHeap} node to be compared
-     * @return a negative integer, zero, or a positive integer as the first argument is
+     * @return A negative integer, zero, or a positive integer as the first argument is
      *         less than, equal to, or greater than the second
      */
     private int compare( FibonacciHeapNode<E> o1, FibonacciHeapNode<E> o2 )

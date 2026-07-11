@@ -107,7 +107,7 @@ final class ShortestEdges<V, WE, W>
     /**
      * Creates a spanning tree using the current data.
      *
-     * @return a spanning tree using current data
+     * @return A spanning tree using current data
      */
     public SpanningTree<V, WE, W> createSpanningTree()
     {

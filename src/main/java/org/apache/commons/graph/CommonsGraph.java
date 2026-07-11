@@ -59,7 +59,7 @@ public final class CommonsGraph
      * @param <E> The Graph edges type
      * @param <G> The Graph type
      * @param graph the input graph
-     * @return an instance of {@link ColorsBuilder}
+     * @return An instance of {@link ColorsBuilder}
      */
     public static <V, E, G extends UndirectedGraph<V, E>> ColorsBuilder<V, E> coloring( G graph )
     {
@@ -89,7 +89,7 @@ public final class CommonsGraph
      * @param <E> The Graph edges type
      * @param <G> The Graph type
      * @param graph the input graph
-     * @return an instance of {@link NamedExportSelector}
+     * @return An instance of {@link NamedExportSelector}
      */
     public static <V, E, G extends Graph<V, E>> NamedExportSelector<V, E> export( G graph )
     {
@@ -119,7 +119,7 @@ public final class CommonsGraph
      * @param <WE> the Graph edges type
      * @param <G> The Graph type
      * @param graph the input edge-weighted graph
-     * @return an instance of {@link FlowWeightedEdgesBuilder}
+     * @return An instance of {@link FlowWeightedEdgesBuilder}
      */
     public static <V, WE, G extends DirectedGraph<V, WE>> FlowWeightedEdgesBuilder<V, WE> findMaxFlow( G graph )
     {
@@ -179,7 +179,7 @@ public final class CommonsGraph
      * @param <V> The Graph vertices type
      * @param <E> The Graph edges type
      * @param graphConnection the {@link GraphConnection} instance that describes vertices
-     * @return a new {@link DirectedMutableGraph} instance
+     * @return A new {@link DirectedMutableGraph} instance
      */
     public static <V, E> DirectedMutableGraph<V, E> newDirectedMutableGraph( GraphConnection<V, E> graphConnection )
     {
@@ -193,7 +193,7 @@ public final class CommonsGraph
      * @param <V> The Graph vertices type
      * @param <E> The Graph edges type
      * @param graphConnection the {@link GraphConnection} instance that describes vertices
-     * @return a new {@link UndirectedMutableGraph} instance
+     * @return A new {@link UndirectedMutableGraph} instance
      */
     public static <V, E> UndirectedMutableGraph<V, E> newUndirectedMutableGraph( GraphConnection<V, E> graphConnection )
     {

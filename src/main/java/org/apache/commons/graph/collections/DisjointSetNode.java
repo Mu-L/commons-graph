@@ -64,7 +64,7 @@ final class DisjointSetNode<E>
     /**
      * Returns the adapted element by this node.
      *
-     * @return the adapted element by this node.
+     * @return The adapted element by this node.
      */
     public E getElement()
     {
@@ -74,7 +74,7 @@ final class DisjointSetNode<E>
     /**
      * Returns the reference to the parent node, the node itself by default.
      *
-     * @return the reference to the parent node, the node itself by default.
+     * @return The reference to the parent node, the node itself by default.
      */
     public DisjointSetNode<E> getParent()
     {

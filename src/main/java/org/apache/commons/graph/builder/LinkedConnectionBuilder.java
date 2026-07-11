@@ -35,7 +35,7 @@ public interface LinkedConnectionBuilder<V, E, G extends MutableGraph<V, E>>
      * Connects the graph.
      *
      * @param graphConnection the {@link GraphConnection}
-     * @return the {@link org.apache.commons.graph.Graph} built from the connections.
+     * @return The {@link org.apache.commons.graph.Graph} built from the connections.
      */
     G withConnections( GraphConnection<V, E> graphConnection );
 

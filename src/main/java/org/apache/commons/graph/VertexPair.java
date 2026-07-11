@@ -77,7 +77,7 @@ public final class VertexPair<V>
     }
 
     /**
-     * @return the source
+     * @return The source
      */
     public V getHead()
     {
@@ -85,7 +85,7 @@ public final class VertexPair<V>
     }
 
     /**
-     * @return the target
+     * @return The target
      */
     public V getTail()
     {

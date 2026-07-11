@@ -33,14 +33,14 @@ public interface Path<V, E>
     /**
      * Returns the source of the path.
      *
-     * @return the source of the path.
+     * @return The source of the path.
      */
     V getSource();
 
     /**
      * Returns the target of the path.
      *
-     * @return the target of the path.
+     * @return The target of the path.
      */
     V getTarget();
 

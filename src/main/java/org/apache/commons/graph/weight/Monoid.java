@@ -36,14 +36,14 @@ public interface Monoid<E>
      *
      * @param e1 the first element
      * @param e2 the second element
-     * @return the result of the associative binary operation
+     * @return The result of the associative binary operation
      */
     E append( E e1, E e2 );
 
     /**
      * Returns the identity value.
      *
-     * @return the identity value
+     * @return The identity value
      */
     E identity();
 
@@ -51,7 +51,7 @@ public interface Monoid<E>
      * Returns the inverse of the input element.
      *
      * @param element the input element
-     * @return the inverse of the input element
+     * @return The inverse of the input element
      */
     E inverse( E element );
 

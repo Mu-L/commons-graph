@@ -122,7 +122,7 @@ public abstract class BaseGraph<V, E>
     /**
      * Returns the adjacency list where stored vertex/edges.
      *
-     * @return the adjacency list where stored vertex/edges.
+     * @return The adjacency list where stored vertex/edges.
      */
     protected final Map<V, Set<V>> getAdjacencyList()
     {
@@ -132,7 +132,7 @@ public abstract class BaseGraph<V, E>
     /**
      * Return the edge {@link Set}
      *
-     * @return the edge {@link Set}
+     * @return The edge {@link Set}
      */
     protected Set<E> getAllEdges()
     {
@@ -171,7 +171,7 @@ public abstract class BaseGraph<V, E>
     /**
      * Returns the {@code Map} of indexed edges.
      * 
-     * @return the {@link Map} of indexed edges
+     * @return The {@link Map} of indexed edges
      */
     protected Map<VertexPair<V>, E> getIndexedEdges()
     {
@@ -181,7 +181,7 @@ public abstract class BaseGraph<V, E>
     /**
      * Returns the {@code Map} of indexed vertices.
      * 
-     * @return the indexed vertices {@link Map}
+     * @return The indexed vertices {@link Map}
      */
     protected Map<E, VertexPair<V>> getIndexedVertices()
     {

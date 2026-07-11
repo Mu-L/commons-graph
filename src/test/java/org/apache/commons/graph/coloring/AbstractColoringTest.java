@@ -80,7 +80,7 @@ abstract class AbstractColoringTest
      * Creates a list of integer colors.
      *
      * @param colorNumber number of colors
-     * @return the list.
+     * @return The list.
      */
     protected Set<Integer> createColorsList( int colorNumber )
     {

@@ -39,7 +39,7 @@ public final class DisjointSet<E>
      * Performs the @code{ find} operation by applying the <i>path compression</i>.
      *
      * @param node the input DisjointSet node for the @code{ find} operation
-     * @return the root node of the path
+     * @return The root node of the path
      */
     private DisjointSetNode<E> find( DisjointSetNode<E> node )
     {
@@ -54,7 +54,7 @@ public final class DisjointSet<E>
      * Performs the {@code find} operation applying the <i>path compression</i>.
      *
      * @param e the element has to be find in this {@code DisjointSet} instance
-     * @return the value found 
+     * @return The value found 
      */
     public E find( E e )
     {
@@ -75,7 +75,7 @@ public final class DisjointSet<E>
      * if already previously set, creates a new one and push it in {@link #disjointSets} otherwise.
      *
      * @param e the element which related subset has to be returned
-     * @return the input element {@code DisjointSetNode}
+     * @return The input element {@code DisjointSetNode}
      */
     private DisjointSetNode<E> getNode( E e )
     {

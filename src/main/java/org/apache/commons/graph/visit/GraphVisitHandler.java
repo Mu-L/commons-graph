@@ -37,7 +37,7 @@ public interface GraphVisitHandler<V, E, G extends Graph<V, E>, O>
      *   <li>{@link VisitState.ABORT} terminates the visit.</li>
      * </ul>
      *
-     * @return the state of the visit after operations on the edge
+     * @return The state of the visit after operations on the edge
      */
     VisitState discoverEdge( V head, E edge, V tail );
 
@@ -55,7 +55,7 @@ public interface GraphVisitHandler<V, E, G extends Graph<V, E>, O>
      *   <li>{@link VisitState.ABORT} terminates the visit.</li>
      * </ul>
      *
-     * @return the state of the visit after operations on the vertex
+     * @return The state of the visit after operations on the vertex
      */
     VisitState discoverVertex( V vertex );
 

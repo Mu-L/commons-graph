@@ -103,7 +103,7 @@ final class DefaultVisitAlgorithmsSelector<V, E, G extends Graph<V, E>>
      *
      * @param handler the handler intercepts visits
      * @param enqueue defines the collection behavior used to traverse the graph: true is a Queue, false is a Stack
-     * @return the result of {@link GraphVisitHandler#onCompleted()}
+     * @return The result of {@link GraphVisitHandler#onCompleted()}
      */
     private <O> O applyingSearch( GraphVisitHandler<V, E, G, O> handler, boolean enqueue )
     {

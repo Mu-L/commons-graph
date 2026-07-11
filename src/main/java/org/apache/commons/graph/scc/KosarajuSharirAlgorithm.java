@@ -62,7 +62,7 @@ final class KosarajuSharirAlgorithm<V, E>
      *
      * @param source the starting vertex
      * @param visitedVertices a {@link Set} containing all visited vertices
-     * @return the recursively expanded vertex list for Kosaraju's algorithm
+     * @return The recursively expanded vertex list for Kosaraju's algorithm
      */
     private List<V> getExpandedVertexList( final V source, final Set<V> visitedVertices )
     {
@@ -103,7 +103,7 @@ final class KosarajuSharirAlgorithm<V, E>
     /**
      * Applies the classical Kosaraju's algorithm to find the strongly connected components.
      *
-     * @return the input graph strongly connected component.
+     * @return The input graph strongly connected component.
      */
     public Set<Set<V>> perform()
     {
@@ -141,7 +141,7 @@ final class KosarajuSharirAlgorithm<V, E>
      * a vertex <code>source</code>.
      *
      * @param source the source vertex to start the search from
-     * @return the input graph strongly connected component.
+     * @return The input graph strongly connected component.
      */
     public Set<V> perform( final V source )
     {

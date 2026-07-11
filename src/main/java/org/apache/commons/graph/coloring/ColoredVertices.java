@@ -82,7 +82,7 @@ public final class ColoredVertices<V, C>
      * Returns the color associated to the input vertex.
      *
      * @param v the vertex for which getting the color.
-     * @return the color associated to the input vertex.
+     * @return The color associated to the input vertex.
      */
     public C getColor( V v )
     {
@@ -94,7 +94,7 @@ public final class ColoredVertices<V, C>
     /**
      * Returns the number of required colors for coloring the Graph.
      *
-     * @return the number of required colors for coloring the Graph.
+     * @return The number of required colors for coloring the Graph.
      */
     public int getRequiredColors()
     {

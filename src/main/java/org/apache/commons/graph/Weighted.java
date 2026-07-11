@@ -31,7 +31,7 @@ public interface Weighted<W>
     /**
      * Gets the weight of the {@code Weighted} object.
      *
-     * @return the weight of the {@code Weighted} object.
+     * @return The weight of the {@code Weighted} object.
      */
     W getWeight();
 

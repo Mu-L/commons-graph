@@ -70,7 +70,7 @@ public final class PredecessorsList<V, WE, W>
      *
      * @param source the path source vertex
      * @param target the path target vertex
-     * @return the weighted path related to source to target
+     * @return The weighted path related to source to target
      */
     public WeightedPath<V, WE, W> buildPath( V source, V target )
     {
@@ -101,7 +101,7 @@ public final class PredecessorsList<V, WE, W>
      * @param touch the node where search frontiers meet, producing the shortest path
      * @param target the path target vertex
      * @param backwardsList the predecessor list in backwards search space along reversed edges
-     * @return the weighted path related to source to target
+     * @return The weighted path related to source to target
      */
     public WeightedPath<V, WE, W> buildPath( V source, V touch, V target, PredecessorsList<V, WE, W> backwardsList ) {
         InMemoryWeightedPath<V, WE, W> path = new InMemoryWeightedPath<V, WE, W>( source, target, weightOperations, weightedEdges );

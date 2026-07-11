@@ -35,7 +35,7 @@ public interface VisitSourceSelector<V, E, G extends Graph<V, E>>
      * Select the root node the search begins from.
      *
      * @param source the root node the search begins from
-     * @return the search visit algorithm selector
+     * @return The search visit algorithm selector
      */
     <S extends V> VisitAlgorithmsSelector<V, E, G> from( S source );
 

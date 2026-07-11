@@ -28,14 +28,14 @@ public interface Category
     /**
      * Returns the category maximum points.
      *
-     * @return the category maximum points.
+     * @return The category maximum points.
      */
     Double getMaximum();
 
     /**
      * Returns the category minimum points.
      *
-     * @return the category minimum points.
+     * @return The category minimum points.
      */
     Double getMinimum();
 

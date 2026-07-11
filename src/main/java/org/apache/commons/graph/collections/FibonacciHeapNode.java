@@ -100,7 +100,7 @@ final class FibonacciHeapNode<E>
     /**
      * Returns the reference to the first child node.
      *
-     * @return the reference to the first child node.
+     * @return The reference to the first child node.
      */
     public FibonacciHeapNode<E> getChild()
     {
@@ -110,7 +110,7 @@ final class FibonacciHeapNode<E>
     /**
      * Returns the number of children in the child list of node {@code x} is stored in {@code degree[x]}.
      *
-     * @return the number of children in the child list of node {@code x} is stored in {@code degree[x]}.
+     * @return The number of children in the child list of node {@code x} is stored in {@code degree[x]}.
      */
     public int getDegree()
     {
@@ -120,7 +120,7 @@ final class FibonacciHeapNode<E>
     /**
      * Returns the adapted element by this node.
      *
-     * @return the adapted element by this node.
+     * @return The adapted element by this node.
      */
     public E getElement()
     {
@@ -130,7 +130,7 @@ final class FibonacciHeapNode<E>
     /**
      * Returns the left node reference.
      *
-     * @return the left node reference.
+     * @return The left node reference.
      */
     public FibonacciHeapNode<E> getLeft()
     {
@@ -140,7 +140,7 @@ final class FibonacciHeapNode<E>
     /**
      * Returns the reference to the parent node, if any.
      *
-     * @return the reference to the parent node, if any.
+     * @return The reference to the parent node, if any.
      */
     public FibonacciHeapNode<E> getParent()
     {
@@ -150,7 +150,7 @@ final class FibonacciHeapNode<E>
     /**
      * Returns the right node reference.
      *
-     * @return the right node reference.
+     * @return The right node reference.
      */
     public FibonacciHeapNode<E> getRight()
     {

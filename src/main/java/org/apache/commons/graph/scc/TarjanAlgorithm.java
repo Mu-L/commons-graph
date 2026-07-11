@@ -104,7 +104,7 @@ final class TarjanAlgorithm<V, E>
      * Tarjan's algorithm is a variation (slightly faster) on KosarajuSharir's algorithm for finding strongly-connected
      * components in a directed graph.
      *
-     * @return the input graph strongly connected component.
+     * @return The input graph strongly connected component.
      */
     public Set<Set<V>> perform()
     {

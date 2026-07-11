@@ -112,7 +112,7 @@ final class UncoloredOrderedVertices<V>
     /**
      * Returns the number of vertices degrees in the graph.
      *
-     * @return the number of vertices degrees in the graph.
+     * @return The number of vertices degrees in the graph.
      */
     public int size()
     {

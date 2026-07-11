@@ -69,7 +69,7 @@ public final class Assertions
      * @param errorMessageArgs the arguments to be substituted into the message
      *     template. Arguments are converted to strings using
      *     {@link String#valueOf(Object)}.
-     * @return the non-null reference that was validated
+     * @return The non-null reference that was validated
      * @throws NullPointerException if {@code reference} is null
      */
     public static <T> T checkNotNull( T reference, String errorMessageTemplate, Object... errorMessageArgs )

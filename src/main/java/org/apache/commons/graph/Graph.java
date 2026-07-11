@@ -74,7 +74,7 @@ public interface Graph<V, E>
      * if an error occurs while performing that operation.
      *
      * @param v the vertex which degree has to be returned.
-     * @return the number of edges incident to the vertex.
+     * @return The number of edges incident to the vertex.
      */
     int getDegree( V v );
 
@@ -86,7 +86,7 @@ public interface Graph<V, E>
      *
      * @param source the source vertex
      * @param target the target vertex
-     * @return the edge with vertex source and target.
+     * @return The edge with vertex source and target.
      */
     E getEdge( V source, V target );
 
@@ -96,7 +96,7 @@ public interface Graph<V, E>
      * <b>NOTE</b>: implementors have to take in consideration throwing a {@link GraphException}
      * if an error occurs while performing that operation.
      *
-     * @return the total set of Edges in the graph.
+     * @return The total set of Edges in the graph.
      */
     Iterable<E> getEdges();
 
@@ -106,7 +106,7 @@ public interface Graph<V, E>
      * <b>NOTE</b>: implementors have to take in consideration throwing a {@link GraphException}
      * if an error occurs while performing that operation.
      *
-     * @return the <i>order</i> of a Graph (the number of Vertices);
+     * @return The <i>order</i> of a Graph (the number of Vertices);
      */
     int getOrder();
 
@@ -116,7 +116,7 @@ public interface Graph<V, E>
      * <b>NOTE</b>: implementors have to take in consideration throwing a {@link GraphException}
      * if an error occurs while performing that operation.
      *
-     * @return the <i>size</i> of a Graph (the number of Edges)
+     * @return The <i>size</i> of a Graph (the number of Edges)
      */
     int getSize();
 
@@ -126,7 +126,7 @@ public interface Graph<V, E>
      * <b>NOTE</b>: implementors have to take in consideration throwing a {@link GraphException}
      * if an error occurs while performing that operation.
      *
-     * @return the total set of Vertices in the graph.
+     * @return The total set of Vertices in the graph.
      */
     Iterable<V> getVertices();
 
@@ -137,7 +137,7 @@ public interface Graph<V, E>
      * if an error occurs while performing that operation.
      *
      * @param e the input edge
-     * @return the set of vertex on this Edge.
+     * @return The set of vertex on this Edge.
      */
     VertexPair<V> getVertices( E e );
 

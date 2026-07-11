@@ -43,7 +43,7 @@ public final class Objects
      * @param initialNonZeroOddNumber a non-zero, odd number used as the initial value.
      * @param multiplierNonZeroOddNumber a non-zero, odd number used as the multiplier.
      * @param objs the objects to compute hash code.
-     * @return the computed hashCode.
+     * @return The computed hashCode.
      */
     public static int hash( int initialNonZeroOddNumber, int multiplierNonZeroOddNumber, Object...objs )
     {

@@ -82,7 +82,7 @@ final class ShortestDistances<V, W>
      * the input vertex was already visited and a distance value is available for it.
      *
      * @param vertex the vertex whose distance has to be retrieved
-     * @return the distance related to input vertex, or null if it wasn't previously visited.
+     * @return The distance related to input vertex, or null if it wasn't previously visited.
      */
     public W getWeight( V vertex )
     {

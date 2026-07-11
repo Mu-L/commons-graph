@@ -34,7 +34,7 @@ public interface VisitAlgorithmsSelector<V, E, G extends Graph<V, E>>
     /**
      * Breadth-first search algorithm implementation.
      *
-     * @return the breadth first search tree
+     * @return The breadth first search tree
      */
     Graph<V, E> applyingBreadthFirstSearch();
 
@@ -48,7 +48,7 @@ public interface VisitAlgorithmsSelector<V, E, G extends Graph<V, E>>
     /**
      * Depth-first search algorithm implementation.
      *
-     * @return the depth first search tree
+     * @return The depth first search tree
      */
     Graph<V, E> applyingDepthFirstSearch();
 

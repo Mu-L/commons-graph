@@ -79,7 +79,7 @@ final class SuperVertex<V, W, WE>
      * Returns the edge with the minimum weight to other {@link SuperVertex}
      * instances.
      *
-     * @return the minimum weight edge or <code>null</code> if there is no edge
+     * @return The minimum weight edge or <code>null</code> if there is no edge
      */
     public WE getMinimumWeightEdge()
     {

@@ -31,7 +31,7 @@ public interface ConnectivityBuilder<V, E>
     /**
      * Find all the connected components included into the specified graph
      *
-     * @return the connectivity algorithm selector.
+     * @return The connectivity algorithm selector.
      */
     ConnectivityAlgorithmsSelector<V, E> includingAllVertices();
 
@@ -39,7 +39,7 @@ public interface ConnectivityBuilder<V, E>
      * Specifies the set of vertices included into a connected component.
      *
      * @param vertices the set of vertices included into a connected component.
-     * @return the connectivity algorithm selector.
+     * @return The connectivity algorithm selector.
      */
     ConnectivityAlgorithmsSelector<V, E> includingVertices( V... vertices );
 

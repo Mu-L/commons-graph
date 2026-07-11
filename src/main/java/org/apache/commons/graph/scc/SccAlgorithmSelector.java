@@ -33,7 +33,7 @@ public interface SccAlgorithmSelector<V, E>
     /**
      * Applies the classical Cheriyan/Mehlhorn/Gabow's algorithm to find the strongly connected components, if exist.
      *
-     * @return the input graph strongly connected component.
+     * @return The input graph strongly connected component.
      */
     Set<Set<V>> applyingCheriyanMehlhornGabow();
 
@@ -43,7 +43,7 @@ public interface SccAlgorithmSelector<V, E>
      * <p>Note: the runtime complexity is O(V + E) and this algorithm should be chosen
      * if the number of vertices outweighs the number of edges.</p>
      *
-     * @return the input graph strongly connected components.
+     * @return The input graph strongly connected components.
      */
     Set<Set<V>> applyingKosarajuSharir();
 
@@ -52,7 +52,7 @@ public interface SccAlgorithmSelector<V, E>
      * a vertex <code>source</code>.
      *
      * @param source the source vertex to start the search from
-     * @return the input graph strongly connected component.
+     * @return The input graph strongly connected component.
      */
     Set<V> applyingKosarajuSharir( V source );
 
@@ -63,7 +63,7 @@ public interface SccAlgorithmSelector<V, E>
      * <p>Note: the runtime complexity is O(V + E) and this algorithm should be chosen
      * if the number of edges outweighs the number of vertices.</p>
      *
-     * @return the input graph strongly connected component.
+     * @return The input graph strongly connected component.
      */
     Set<Set<V>> applyingTarjan();
 

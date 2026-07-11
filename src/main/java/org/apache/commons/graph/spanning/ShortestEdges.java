@@ -136,7 +136,7 @@ final class ShortestEdges<V, WE, W>
      * the input vertex has an assiged weight.
      *
      * @param vertex the vertex for which the distance has to be retrieved
-     * @return the distance related to input vertex, or null if it does not exist
+     * @return The distance related to input vertex, or null if it does not exist
      */
     public W getWeight( V vertex )
     {

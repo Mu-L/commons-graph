@@ -74,7 +74,7 @@ public final class CommonsGraph
      * @param <P> The players involved in the tournament
      * @param <TG> the Tournament Graph type
      * @param tournamentGraph the graph representing the tournament
-     * @return the builder for the functor which returns/update the players ranking
+     * @return The builder for the functor which returns/update the players ranking
      */
     public static <P, TG extends DirectedGraph<P, GameResult>> RankingSelector<P> eloRate( TG tournamentGraph )
     {
@@ -104,7 +104,7 @@ public final class CommonsGraph
      * @param <E> The Graph edges type.
      * @param <G> The directed graph type
      * @param graph the Graph which connected component has to be verified.
-     * @return the Connectivity algorithm builder
+     * @return The Connectivity algorithm builder
      */
     public static <V, E, G extends Graph<V, E>> ConnectivityBuilder<V, E> findConnectedComponent( G graph )
     {
@@ -134,7 +134,7 @@ public final class CommonsGraph
      * @param <WE> the Graph edges type
      * @param <G> The Graph type
      * @param graph the input edge-weighted graph
-     * @return the caluculated the sortest
+     * @return The caluculated the sortest
      */
     public static <V, WE, G extends Graph<V, WE>> PathWeightedEdgesBuilder<V, WE> findShortestPath( G graph )
     {
@@ -149,7 +149,7 @@ public final class CommonsGraph
      * @param <E> The Graph edges type.
      * @param <G> The directed graph type
      * @param graph the Graph which strongly connected component has to be verified.
-     * @return the SCC algoritm selector
+     * @return The SCC algoritm selector
      */
     public static <V, E, G extends DirectedGraph<V, E>> SccAlgorithmSelector<V, E> findStronglyConnectedComponent( G graph )
     {
@@ -164,7 +164,7 @@ public final class CommonsGraph
      * @param <WE> the Graph edges type
      * @param <G> The Graph type
      * @param graph the input edge-weighted graph
-     * @return the caluculated minimun spanning tree
+     * @return The caluculated minimun spanning tree
      */
     public static <V, WE, G extends Graph<V, WE>> SpanningWeightedEdgeMapperBuilder<V, WE> minimumSpanningTree( G graph )
     {
@@ -207,7 +207,7 @@ public final class CommonsGraph
      * @param <E> The Graph edges type
      * @param <G> The Graph type
      * @param graph the graph has to be populated
-     * @return the builder to configure vertices connection
+     * @return The builder to configure vertices connection
      */
     public static <V, E, G extends MutableGraph<V, E>> LinkedConnectionBuilder<V, E, G> populate( G graph )
     {
@@ -236,7 +236,7 @@ public final class CommonsGraph
      * @param <V> The Graph vertices type
      * @param <E> The Graph edges type
      * @param graph the input {@link Graph}
-     * @return the syncronyzed graph
+     * @return The syncronyzed graph
      */
     public static <V, E> Graph<V, E> synchronize( DirectedGraph<V, E> graph )
     {
@@ -265,7 +265,7 @@ public final class CommonsGraph
      * @param <V> The Graph vertices type
      * @param <E> The Graph edges type
      * @param graph the input {@link Graph}
-     * @return the syncronyzed graph
+     * @return The syncronyzed graph
      */
     public static <V, E> Graph<V, E> synchronize( Graph<V, E> graph )
     {
@@ -294,7 +294,7 @@ public final class CommonsGraph
      * @param <V> The Graph vertices type
      * @param <E> The Graph edges type
      * @param graph the input {@link Graph}
-     * @return the synchronized graph
+     * @return The synchronized graph
      */
     public static <V, E> Graph<V, E> synchronize( MutableGraph<V, E> graph )
     {
@@ -323,7 +323,7 @@ public final class CommonsGraph
      * @param <V> The Graph vertices type
      * @param <E> The Graph edges type
      * @param graph the input {@link Graph}
-     * @return the syncronyzed graph
+     * @return The syncronyzed graph
      */
     public static <V, E> Graph<V, E> synchronize( UndirectedGraph<V, E> graph )
     {
@@ -337,7 +337,7 @@ public final class CommonsGraph
      * @param <E> The Graph edges type
      * @param <G> The Graph type
      * @param graph the Graph instance to apply graph algorithms
-     * @return the graph algorithms selector
+     * @return The graph algorithms selector
      */
     public static <V, E, G extends Graph<V, E>> VisitSourceSelector<V, E, G> visit( G graph )
     {
